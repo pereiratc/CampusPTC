@@ -30,7 +30,7 @@
                 <configuration>
                     <changeLogFile>src/main/resources/changelog.xml</changeLogFile>
                     <driver>org.h2.Driver</driver>
-                    <url>jdbc:h2:~/tmp/courses</url>
+                    <url>jdbc:h2:~/temp/courses</url>
                     <promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
                 </configuration>
             </plugin>
@@ -51,7 +51,7 @@
                         <configuration>
                             <changeLogFile>src/main/resources/changelog.xml</changeLogFile>
                             <driver>org.h2.Driver</driver>
-                            <url>jdbc:h2:~/tmp/courses-test</url>
+                            <url>jdbc:h2:~/temp/courses-test</url>
                             <promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
                         </configuration>
                         <executions>
