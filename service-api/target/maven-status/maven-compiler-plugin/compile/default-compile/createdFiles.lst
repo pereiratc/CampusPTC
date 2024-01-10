@@ -1,0 +1,5 @@
+com\example\service\exception\PreconditionFailedServiceException.class
+com\example\service\exception\ForbiddenServiceException.class
+com\example\service\exception\NotFoundServiceException.class
+com\example\service\exception\AbstractServiceException.class
+com\example\service\exception\AlreadyExistsServiceException.class
